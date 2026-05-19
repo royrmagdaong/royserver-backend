@@ -7,3 +7,17 @@ Content-Type: application/json
     "email": "royrmagdaong@gmail.com",
     "password": "pasword123"
 }
+
+###
+POST https://royserver.space/user/create
+Content-Type: application/json
+
+{
+    "role": "user",
+    "email": "test@gmail.com",
+    "password": "pasword123"
+}
+
+###
+GET https://royserver.space/user?id=6a0c00530b4c479fa4f0dc8b
+Content-Type: application/json
